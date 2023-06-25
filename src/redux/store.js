@@ -8,4 +8,4 @@ const store = configureStore({
         user: userSlice,
     }
 })
-export default store
+export default store;

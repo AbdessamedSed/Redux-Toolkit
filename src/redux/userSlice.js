@@ -26,7 +26,7 @@ export const userSlice = createSlice({
       state.loading = null;
     },
 
-    errorUser: (state) =>{
+    errorUser: (state) => {
       state.loading = false;
       state.error = true
     }
